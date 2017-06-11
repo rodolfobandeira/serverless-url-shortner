@@ -25,4 +25,8 @@ functions:
       - http:
           path: /{slug}
           method: get
+    environment:
+      URL_INSTALL: https://serverless.com/framework/docs/providers/aws/guide/installation/
+      URL_SERVERLESS: https://serverless.com/
+      URL_AWS: https://aws.amazon.com/
 
